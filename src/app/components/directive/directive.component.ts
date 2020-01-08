@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectiveComponent implements OnInit {
   switch:boolean = true;
+
+  fuc: boolean = false;
+  
+  hidclr(){
+    this.fuc = !this.fuc;
+  }
+
+
+
   hide(){
     this.switch = !this.switch;
   }

@@ -2,3 +2,15 @@
     background-color: aqua;
     color: darkmagenta;
 }
+
+
+.active {
+    color: cyan;
+    background-color: darkgray;
+}
+
+.inactive{
+    color: red ;
+    background-color: darkolivegreen;
+    
+}

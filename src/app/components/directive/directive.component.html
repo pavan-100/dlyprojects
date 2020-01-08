@@ -1,4 +1,13 @@
 <div class="makeHide" *ngIf="switch">
     <h1>PavanKumar</h1>
+    <p>This is the digital lyncs project </p>
 </div>
 <button (click)= "hide()" >Clickme</button>
+
+
+<div [ngClass]=" fuc ? 'active' : 'inactive' "> 
+
+    <h1>PavanKumar</h1>
+
+</div>
+<button (click) = "hidclr()" >clickme</button>
