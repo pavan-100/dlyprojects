@@ -1,0 +1,24 @@
+<h1>
+  {{ name }}
+</h1>
+<div *ngIf="arr.length > 0">
+  {{ arr }}
+</div>
+
+<div *ngIf="arr.length < 0">
+  {{ arr }}
+</div>
+
+<div *ngIf="hide">
+  <p>i am in {{ hide }} state.</p>
+</div>
+
+<div *ngIf="arry">
+  <p>i am in {{ hide }} state.</p>
+</div>
+
+<div class="makeMeHide" *ngIf="toggle">
+  <h1>kjdahfkj</h1>
+</div>
+
+<button (click)="hideMe()">Click</button>

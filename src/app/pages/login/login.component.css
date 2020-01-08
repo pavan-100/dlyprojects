@@ -1,0 +1,48 @@
+
+.mainpage label{
+    font-weight: bold;
+    color:cyan; 
+    margin: 10px 0px;
+}
+.mainpage{
+background-image: url("../../../assets/login.jpg");
+background-size:100% 100%;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.mainpage button{
+margin-top: 20px;
+color: whitesmoke;
+font-weight: bold;
+background-color: #4CAF50;
+width: 100px;
+height: 40px;
+border: none;
+cursor: pointer;
+transition: 0.5s;
+border-radius: 8px;
+}
+.mainpage button:hover{
+background-color: #1e8d97;
+border-radius: 42px;  
+}
+.mainpage input{
+height: 40px;
+width: 300px;
+border-radius: 8px;
+border: none;
+padding-left: 10px;
+}
+.mainpage h1{
+color:rgb(231, 9, 83);
+}
+.blur{
+height: auto;
+width: auto;
+background: rgba(0, 0, 0, 0.5);
+padding: 30px 30px 40px ;
+
+}
