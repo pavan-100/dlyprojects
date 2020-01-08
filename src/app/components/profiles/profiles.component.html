@@ -1,0 +1,17 @@
+<div *ngFor="let profile of profiles">
+    <div class="card">
+        <div fxLayout="row" fxLayoutAlign="start start" >
+        <div fxFlex="45">
+          <img src="{{ profile.img }}" alt="proImg" />
+        </div>
+        <div class="details" fxFlex="35">
+         <b>Name: </b>{{ profile.name }}<br>
+           <b>ID: </b>{{ profile.id }}<br>
+           <b>Mobile: </b>{{ profile.mobile }}<br>
+           <b>Email: </b>{{ profile.email }}<br>
+           <input type="number" placeholder="size">
+           <input type="number" placeholder="Qty">
+    </div>
+      </div>
+    </div>
+  </div>
