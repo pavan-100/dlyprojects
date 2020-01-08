@@ -1,6 +1,6 @@
-.makeHide{
-    background-color: aqua;
-    color: darkmagenta;
+/* .makeHide{
+height: 30px;
+width: 60px;
 }
 
 
@@ -12,5 +12,19 @@
 .inactive{
     color: red ;
     background-color: darkolivegreen;
-    
+
+}
+.act{
+    color: #124369;
+    background-color: #789646;   
+}
+.inact{
+    color: red ;
+    background-color: #746189;
+} */
+img{
+    align-items: center;
+}
+button{
+    position: fixed;
 }

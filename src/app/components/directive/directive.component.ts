@@ -9,12 +9,14 @@ export class DirectiveComponent implements OnInit {
   switch:boolean = true;
 
   fuc: boolean = false;
-  
+  com: boolean = false;
+
+  pav(){
+    this.com = !this.com;
+  }
   hidclr(){
     this.fuc = !this.fuc;
   }
-
-
 
   hide(){
     this.switch = !this.switch;

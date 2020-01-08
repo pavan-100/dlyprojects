@@ -1,8 +1,18 @@
-<div class="makeHide" *ngIf="switch">
-    <h1>PavanKumar</h1>
-    <p>This is the digital lyncs project </p>
+<div>
+
+<div fxLayout="row" fxLayoutAlign="center">
+    <div fxFlex="75">
+    <div class="makeHide" *ngIf="switch" Align ="center">
+    
+    <img src="../../../assets/dhoni.png">
+    </div>
+    </div>
+<div fxFlex="25">
+<button (click)= "hide()" >Clickme</button></div>
 </div>
-<button (click)= "hide()" >Clickme</button>
+</div>
+
+<!-- <button (click)= "hide()" >Clickme</button>
 
 
 <div [ngClass]=" fuc ? 'active' : 'inactive' "> 
@@ -11,3 +21,8 @@
 
 </div>
 <button (click) = "hidclr()" >clickme</button>
+
+<div [ngClass]=" com ? 'act':'inact' ">
+    <h2>vinodh kumar</h2>
+</div>
+<button (click) = "pav()">click</button> -->
