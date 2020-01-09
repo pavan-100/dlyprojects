@@ -12,6 +12,7 @@ import { WelComepageComponent } from './pages/wel-comepage/wel-comepage.componen
 import { DirectivesComponent } from './components/directives/directives.component';
 import { DirectiveComponent } from './components/directive/directive.component';
 import { ProfilesComponent } from './components/profiles/profiles.component';
+import { PropertyComponent } from './components/property/property.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ProfilesComponent } from './components/profiles/profiles.component';
     DirectivesComponent,
     DirectiveComponent,
     ProfilesComponent,
+    PropertyComponent,
    
   ],
   imports: [

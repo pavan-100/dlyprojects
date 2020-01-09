@@ -7,6 +7,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { DirectiveComponent } from './components/directive/directive.component';
 import { ProfilesComponent } from './components/profiles/profiles.component';
+import { PropertyComponent } from './components/property/property.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,9 @@ const routes: Routes = [
   { path:"signup",component:SignupComponent},
   { path:'dir' , component: DirectivesComponent},
   { path:"directive" , component: DirectiveComponent},
-  { path:"prof" , component: ProfilesComponent}
+  { path:"prof" , component: ProfilesComponent},
+  { path: "prope" , component: PropertyComponent}
+
 ];
 
 @NgModule({

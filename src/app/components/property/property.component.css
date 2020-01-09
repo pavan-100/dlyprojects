@@ -1,0 +1,6 @@
+.Mynew{
+    background-color: blue;
+}
+.Mynew:disabled {
+    background-color: red;
+}
